@@ -123,7 +123,7 @@
 	height: 45px;
 	line-height: 45px;
 	background-color: #eee;
-
+	margin: 0 0 10px 0;
 }
 #container .left{
 	float: left;
@@ -164,4 +164,61 @@
 #container .right li  .selected,#container .right li a:hover{
 	background-color: #458b00;
 	color: white;
+}
+#container .tour{
+	width: 908px;
+	padding: 0;
+	margin: 0 0 20px 0;
+	/*background-color:#ccc;*/
+	border: 1px solid #eee;
+	position: relative;
+}
+#container .tour img{
+	float: left;
+}
+#container .tour figcaption{
+	width: 528px;
+	height: 230px;
+	float: right;	
+}
+#container .tour ol{
+	padding: 0 0 0 25px;
+	line-height: 2;
+	color: #666;
+}
+#container .tour mark{
+	background-color: #fff;
+	border: 1px solid #458b00;
+	border-radius: 4px;
+	color: #458b00;
+}
+#container .tour footer{
+	width: 528px;
+	height: 30px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-indent: 25px;
+	background-color: #fafafa;
+	position: absolute;
+	bottom: 0;
+}
+#container .tour time{
+	color: #458b00;
+}
+#container .tour hgroup{
+	width: 300px;
+
+}
+#container .tour hgroup h2{
+	font-size: 24px;
+	color: #333;
+	font-weight: normal;
+	padding: 10px 0 10px 25px;
+}
+#container .tour hgroup h3{
+	font-size: 16px;
+	color: #666;
+	line-height: 1.5;
+	font-weight: normal;
+	padding: 10px 0 10px 25px;
 }

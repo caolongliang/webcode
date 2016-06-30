@@ -3,7 +3,7 @@ body,h1,ul,h2,h3,p,figure{
 	margin: 0;
 	padding: 0;
 }
-ul{
+ul ,ol{
 	list-style:  outside none none;
 }
 a{
