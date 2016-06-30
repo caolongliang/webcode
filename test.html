@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-en">
+<head>
+<meta charset="utf-8">
+	<title>太极</title>
+<style type="text/css">
+	#container{background:white;width:800px;height:800px;margin:0 auto;position:relative;}
+	.big1{width: 600px;height: 600px;border:1px solid black; border-radius: 300px;background: black;top:0px;right: 100px;position: absolute;
+		z-index: 3;}
+	.big2{width: 400px;height: 600px;border:1px solid white;background: white;position: absolute;top: 0px;right: 0px;z-index: 3;}
+	.big3{width: 600px;height: 600px;border:1px solid black; border-radius: 300px;top:0px;right: 100px;position: absolute;
+		z-index: 3;}
+	.small1{width: 300px;height: 300px;border-right:1px solid red; background: black; border-radius: 150px;position: absolute;top:0px;left: 250px;z-index: 3;}
+	.small2{width: 300px;height: 300px;border-left:1px solid red;background: white;border-radius: 150px;position: absolute;top: 300px; left:250px;z-index: 4;}
+	#min1{width: 100px;height: 100px;border:1px solid white;background: white;border-radius: 50px; position: absolute;top:100px;left: 350px;z-index: 5;}
+	#min2{width: 100px;height: 100px;border:1px solid white;background: black;border-radius: 100px; position: absolute;top: 400px;left: 350px;z-index: 5;}
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid orange;
+    border-right: 50px solid black;
+    border-bottom: 50px solid red;
+    border-top: 50px solid green;
+}
+ 
+#cut-diamond {
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+    border-width: 0 25px 25px 25px;
+    height: 0;
+    width: 50px;
+    position: relative;
+    margin: 20px 0 50px 0;
+}
+#cut-diamond:after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: red transparent transparent transparent;
+    border-width: 70px 50px 0 50px;
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+<div class='big1'></div>
+<div class="big2"></div>
+<div class="big3"></div>
+<div class="small1"></div>
+<div class="small2"></div>
+<div id="min1"></div>
+<div id="min2"></div>
+</div>
+<div id="cut-diamond"></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+@charset "utf-8";
+p{
+	background-color: silver;	
+	font:500  1.5rem 楷体;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+div{
+	width: 500px;
+	height: 500px;
+	border-radius: 250px;
+	border:1px  solid red;
+	background-image: repeating-radial-gradient(circle 50px, red,#fff);
+	background-image: linear-gradient(to top , orange 200px,green);
+}

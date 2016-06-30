@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>rotate</title>
+	<style>
+		body{
+			margin: 0 auto;
+			width: 800px;
+		}
+		.img{
+			width: 200px;
+			height: 200px;
+			border: 100px solid #666;
+			border-left-color: red;
+			border-right-color: black;
+			border-top-color: yellow;
+			margin: 100px;
+			border-radius: 50%;
+			-webkit-animation:circle 10s infinite linear;/*匀速 循环*/
+		}
+		@-webkit-keyframes circle{
+			0%{ transform:rotate(0deg); }
+			100%{ transform:rotate(360deg); }
+		}		
+		/*@-webkit-keyframes circle{
+			0%{tansform:rotate(0deg);}
+			100%{transform: roate(-360deg);}
+		}*/
+	</style>
+</head>
+<body>
+	<div class="img"></div>
+</body>
+</html>

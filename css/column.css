@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+#headline{
+	width: 100%;
+	height: 300px;
+	min-width: 1263px;
+	background: linear-gradient(to right bottom,rgba(0,0,0,0.7),rgba(255,255,255,0)), url(../img/headline.jpg)  no-repeat center;
+}
+#headline .center{
+	width: 1263px;
+	height: 300px;
+	margin: 0 auto;
+}
+#headline hgroup{
+	padding: 100px 0 0 50px;	
+}
+#headline h2{
+	color:  #eee;
+	font-size:36px;
+	letter-spacing: 1px;
+}
+#headline h3{
+	color:  #eee;
+	font-size:20px;
+	letter-spacing: 1px;
+}
+
+#container{
+	width: 1263px;
+	margin: 30px auto;
+}
+#container .sidebar{
+	width: 340px;
+	float: right;
+	
+}
+#container .sidebox{
+	border:1px solid #eee;
+	margin: 0 0 10px 0;
+	padding: 5px;
+	
+}
+#container .sidebox h2{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 8px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color: #666;
+	text-align:left;
+
+}
+#container .tag{
+	margin:10px 0;
+
+}
+#container .tag li{
+	width: 100px;
+	height: 35px;
+	display: inline-block;
+	line-height: 35px;
+	margin: 2px 0;
+	background-color: #eee;
+	text-indent: 8px;
+}
+#container .tag li a{
+	display: block;
+	color: #999;
+}
+#container .tag a:hover{
+	background-color: #458b00;
+	color: #fff;
+}
+#container .figure{
+	padding: 10px 0;
+}
+#container figure{
+	display: inline-block;
+	padding: 4px;
+	color: #666;
+}
+#container .box{
+	margin:10px 0;
+}
+#container .box a{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+	margin: 2px 0;
+	background-color: #eee;
+	color: #999;
+	text-indent: 35px;
+}
+#container .box a:hover{
+	background-color: rgba(9,9,9,.3);
+	color: #fff;
+}
+
+#container .box  .trea1{
+	background: url(../img/trea1.png) no-repeat 10px center;
+}
+#container .box  .trea2{
+	background: url(../img/trea2.png) no-repeat 10px center;
+}
+#container .box  .trea3{
+	background: url(../img/trea3.png) no-repeat 10px center;
+}
+
+#container .box  .trea4{
+	background: url(../img/trea4.png) no-repeat 10px center;
+}
+
+
+#container .list{
+	width: 910px;
+	float: left;
+	
+}
+#container .infor{
+	height: 45px;
+	line-height: 45px;
+	background-color: #eee;
+
+}
+#container .left{
+	float: left;
+	display: inline-block;
+}
+#container .left li{
+	display: inline-block;	
+	width: 150px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+}
+#container .left li:hover,#container .left .selected-li{
+	background-color: white;
+	border-top: 2px solid #458b00;
+	position: relative;
+	left: 1px;
+}
+#container .left li a{
+	color: #666;
+}
+#container .right{
+	float: right;
+	display: inline-block;
+	padding: 0 20px 0 0;
+}
+#container .right li{
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+#container .right li a{
+	color: #666;
+	padding: 3px 8px;
+}
+#container .right li  .selected,#container .right li a:hover{
+	background-color: #458b00;
+	color: white;
+}
