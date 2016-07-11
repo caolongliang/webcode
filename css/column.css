@@ -222,3 +222,98 @@
 	font-weight: normal;
 	padding: 10px 0 10px 25px;
 }
+#container .tour .buy{
+	position: absolute;
+	top: 55px;
+	right: 30px;
+}
+#container .tour .price{
+	font-size: 20px;
+	color: #f60;
+}
+#container .tour .price strong{
+	font-size: 36px;
+}
+#container .tour .price s{
+	font-size: 16px;
+	color: #999;
+}
+#container .tour .reserve{
+	margin: 10px 0 0 0;
+}
+#container .tour .type{
+	position: absolute;
+	background-color: green;
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	font-size:14px;
+	text-align: center;
+	color: #fff;
+	top: 0;
+	left: 0;
+}
+#container .tour .disc{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 52px;
+	height: 52px;
+	background:url(../img/disc.png);
+
+}
+#container .tour .disc span{
+	display: block;
+	
+	transform: rotate(45deg);
+	width: 52px;
+	height: 52px;
+	padding: 5px 0 0 0;
+	font-size: 14px;
+	text-indent: 7px;
+	color: #ff7a4d;
+}
+#container .more{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0  auto 10px;
+	border: 1px solid #ccc;
+	text-align: center;
+	cursor: pointer;
+	background-color: #fafafa;
+	border-radius: 10px;
+	font-size: 18px;
+}
+#container .tour .reserve a{
+	display: block;
+	width: 152px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #f60;
+}
+
+/*机票预订*/
+#container .ticket{
+	color: #666;
+}
+#container .ticket h2{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed #999;
+	padding: 0 0 15px 0;
+}
+#container .ticket  .type{
+	margin: 20px 0 10px 0;
+}
+#container .ticket  .type mark{
+	color: #fff;
+	background-color: #458b00;
+	padding: 5px 8px;
+	border-radius: 4px;
+	margin: 0 0 0 16px;
+}
