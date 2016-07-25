@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>正在录音</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="~/css/index.css" rel="stylesheet" />
+    <style type="text/css">
+        .layer {
+            width: 750px;
+            height: 100%;
+            position: fixed;
+            margin: 0 auto;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 9999;
+            display: none;
+        }
+
+            .layer div {
+                margin: 0 auto;
+                text-align: center;
+                font-size: 0.5rem;
+                color: white;
+                line-height: 1.5;
+            }
+
+            .layer .layer_main {
+                position: relative;
+                top: 2.5rem;
+            }
+
+            .layer img {
+                width: 2rem;
+                /*height: 0.4rem;*/
+                position: absolute;
+                top: -2rem;
+                float: right;
+                display: inline-block;
+            }
+
+        @@media screen and (max-width: 800px) {
+            .m-main {
+                width: 100%;
+
+            }
+
+            .layer {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="width:80%;margin:3em auto">
+        <h2 style="font-weight:normal;">请输入您的语音编号</h2>
+    </div>
+    <div style="width:80%;margin:0 auto;height:3em;"> 
+        <input type="text" style="height:3em;border:0;border-bottom:1px solid #ccc;width:100%;font-size:1.5em;color:#B227DF;">
+    </div>
+    <div style="text-align:center;margin:5em auto">
+        <input id="search" width="50%" type="image" src="img/开始搜索.png" />
+    </div>
+    <div id="divrecord" style="width:80%;margin:3em auto;" id="result">
+        <h2 style="font-weight:normal;">搜索结果（点击播放）</h2>
+        <div style="" id="rusult_yes">
+            <input id="btnrecord" width="70%" type="image" src="img/语音条.png" />
+            <audio src="/i/horse.ogg" id="audio" controls="controls">
+                Your browser does not support the audio element.
+            </audio>    
+        </div>
+        <input id="btnrecord" id="result-no" width="100%" style="text-align:center; margin:0 auto;" type="image" src="img/无结果.png" />
+    </div>
+
+</body>
+</html>
